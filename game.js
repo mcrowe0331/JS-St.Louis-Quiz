@@ -1,5 +1,7 @@
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
+const questionCounterText = document.getElementById('questionCounter');
+const scoreText = document.getElementById('score');
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -60,6 +62,7 @@ if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
 }
 
 questionCounter++;
+questionCounterText.innerText = `${questionCounter}/${MAX_QUESTIONS}` ;
 const questionIndex = Math.floor(Math.random() * availableQuestions.length);
 currentQuestion = availableQuestions[questionIndex];
 question.innerText = currentQuestion.question;
@@ -89,7 +92,7 @@ choices.forEach(choice => {
     selectedChoice.parentElement.classList.remove(classToApply);
     getNewQuestion();
     }, 1000);
-    
+
     });
 });
 
