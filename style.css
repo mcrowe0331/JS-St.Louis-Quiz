@@ -1,8 +1,7 @@
-.root {
+:root {
   background-color: #ecf5ff;
-  font-size: 62.5%;
+  font-size: 62.6%;
 }
-
 * {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
@@ -19,7 +18,7 @@ h4 {
 }
 
 h1 {
-  font-size: 4.9rem;
+  font-size: 5.4rem;
   color: #56a5eb;
   margin-bottom: 5rem;
 }
@@ -37,10 +36,10 @@ h2 {
 
 h3 {
   font-size: 2.8rem;
-  font-weight: 500;
+  font-weight: 500; 
 }
 
-/*utilities */
+/* Utilities */
 
 .container {
   width: 100vw;
@@ -79,8 +78,7 @@ h3 {
   display: none;
 }
 
-/* Buttons */
-
+/* BUTTONS */
 .btn {
   font-size: 1.8rem;
   padding: 1rem 0;
@@ -104,4 +102,24 @@ h3 {
   cursor: not-allowed;
   box-shadow: none;
   transform: none;
+}
+
+/* FORMS */
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  margin-bottom: 1rem;
+  width: 20rem;
+  padding: 1.5rem;
+  font-size: 1.8rem;
+  border: none;
+  box-sizing: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+}
+input::placeholder {
+  color: #aaa;
 }
