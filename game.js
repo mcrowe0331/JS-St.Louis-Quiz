@@ -51,11 +51,35 @@ let questions = [
       choice4: "Greek",
       answer: 1
     },
+    {
+      question: "In 1896, what natural disaster struck St. Louis and East St. Louis killing over 250 people?",
+      choice1: "Fire",
+      choice2: "Earthquake",
+      choice3: "Tornado",
+      choice4: "Flood",
+      answer: 3
+    },
+    {
+      question: "What St. Louis Cardinals baseball player was named Rookie of the Year in 2001?",
+      choice1: "J.D.Drew",
+      choice2: "Bud Smith",
+      choice3: "Ichiro Suzuki",
+      choice4: "Albert Pujols",
+      answer: 4
+    },
+    {
+      question: "Which amongst the following is the area code for St. Louis?",
+      choice1: "218",
+      choice2: "314",
+      choice3: "678",
+      choice4: "464",
+      answer: 2
+    }
   ];
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 5;
+const MAX_QUESTIONS = 8;
 
 startGame = () => {
   questionCounter = 0;
