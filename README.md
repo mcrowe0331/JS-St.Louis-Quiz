@@ -5,7 +5,7 @@ I created a quick quiz (8 questions) about St. Louis, Missouri. I pulled some qu
 The image is from https://www.worldatlas.com/cities/st-louis-missouri.html.
 
 <img
-src="/README Image/St.Louis, Missouri.jpg"
+src="/Users/marycrowe/Desktop/WISC/JS-St.Louis-Quiz/README.md"
 alt="STL Image"
 title="City of STL"
 style="display: inline-block; margin: 0 auto; max-width: 300px">
