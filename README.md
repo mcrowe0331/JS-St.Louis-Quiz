@@ -8,4 +8,4 @@ The image is from https://www.worldatlas.com/cities/st-louis-missouri.html.
 src="/image/St. Louis, Missouri .jpg"
 alt="STL Image"
 title="City of STL"
-style="display: inline-block; margin: 0 auto; width=100px height=150px">
+style="display: inline-block; margin: 0 auto; max-width: 100px max-height: 150px">
