@@ -4,7 +4,6 @@ I created a quick quiz (8 questions) about St. Louis, Missouri. I pulled some qu
 
 The image is from https://www.worldatlas.com/cities/st-louis-missouri.html.
 
-
 <img
 src="/image/St. Louis, Missouri .jpg"
 alt="STL Image"
